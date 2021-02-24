@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btCargarFoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/borde_redondo"
+        android:src="@android:drawable/ic_menu_camera"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView2"
+        app:layout_constraintEnd_toEndOf="@+id/circleImageView2" />
+
+    <EditText
+        android:id="@+id/ProductoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Categoria"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
+
+    <EditText
+        android:id="@+id/ProductoDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProductoNombre" />
+
+    <Button
+        android:id="@+id/btAñadir"
+        android:layout_width="148dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/borde_redondo"
+        android:text="Añadir Categoria"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/txIva"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/txIva"
+        app:layout_constraintTop_toBottomOf="@+id/txIva" />
+
+    <EditText
+        android:id="@+id/txIva"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="IVA"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/ProductoDescripcion"
+        app:layout_constraintStart_toStartOf="@+id/ProductoDescripcion"
+        app:layout_constraintTop_toBottomOf="@+id/ProductoDescripcion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "388743366093",
+    "firebase_url": "https://gestioninventario-45504-default-rtdb.firebaseio.com",
+    "project_id": "gestioninventario-45504",
+    "storage_bucket": "gestioninventario-45504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388743366093:android:dc92e3a29e391a2b2bb084",
+        "android_client_info": {
+          "package_name": "com.example.gestioninventario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388743366093-en3rqg1l3uarkijkfs5lufmrjbh4sfra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gestioninventario",
+            "certificate_hash": "efad53b302b4e59646680d2f6dfdac9aa12fb988"
+          }
+        },
+        {
+          "client_id": "388743366093-nua4auc7v2mm1kqccilnbc74co5srb1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtaDgJnsW74kfAobs6T3CfCBVSn7wesww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388743366093-nua4auc7v2mm1kqccilnbc74co5srb1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
